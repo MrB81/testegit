@@ -1,0 +1,68 @@
+/*Criado Por Marcinho */
+
+#menu {
+	min-height: 100px;
+	border-style: solid;
+	border-color: #000;
+	border-width: 1px;
+}
+
+
+#conteudo {
+	width: 100%;
+	min-height: 484px;
+	font-size: 32px;
+}
+
+
+#rodape {
+	padding-top: 10px;
+	height:50px;
+	text-align: right;
+	font-weight: bold;
+	
+}
+
+/*REGRA PARA FUNCIONAR NO MOBILE*/
+@media screen and (max-width: 700px) {
+	#conteudo {
+		background-color:red;
+	}
+}
+
+	
+.site {
+	background-color: #bcb4c4;
+	font-size: 18px;
+	
+}
+
+a {
+	color:white;
+	text-decoration: none;
+}
+
+/*EFEITO DO MOUSE SOBRE O LINK */
+
+a:hover {
+	color:red;
+	background-color:yellow;
+	/*text-decoration:underline;*/
+}
+
+/*EFEITO PARA MOSTRAR QUE JA VISITOU O LINK  */
+a:visited {
+	color: blue;
+	font-weight:bold;
+}
+
+li { 
+	list-style-type: lower-alpha;
+	display: inline;
+	padding:10px;
+	
+}
+
+
+/*Quando tem o .xxx sgnifica que é pro site todo, quando tem # é para um elemento específico, pesquisar google fonts CSS*/
+
